@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Roboto Mono", monospace;
+}
+/* in header style */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.resume {
+  margin-right: 166px;
+  padding: 17px 24px;
+  margin-top: 38px;
+  width: 228px;
+  height: 58px;
+  background-color: white;
+  border: 2px solid #0d1321;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #0d1321;
+  margin-bottom: 47px;
+  cursor: pointer;
+}
+.nav-title {
+  width: 180px;
+  height: 34px;
+  margin-top: 50px;
+  margin-left: 150px;
+  color: #0d1321;
+  margin-bottom: 47px;
+}
+/* banner section style starts here */
+.banner-container {
+  /* margin-top: 131px; */
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-right: 0;
+  height: 650px;
+  background-image: url(/assets/Hero-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner-img {
+  max-width: 240.28px;
+  max-height: 240px;
+  margin: 0px auto;
+  margin-top: 200px;
+}
+.banner-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 136px;
+  align-items: center;
+  width: 980px;
+  margin: 0px auto;
+  margin-bottom: 218px;
+  margin-top: 80px;
+}
+.b-title {
+  font-weight: 900;
+  font-size: 50px;
+  width: 1200px;
+}
+.banner-dec {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px auto;
+  width: 852px;
+  height: 52px;
+  margin-top: 30px;
+  margin-left: 294px;
+  margin-right: 294px;
+  text-align: center;
+}
+/* Button style */
+.click {
+  width: 208px;
+  height: 66px;
+  border: none;
+  margin-top: 32px;
+  margin-bottom: 44px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #0d1321;
+  font-size: 1rem;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+}
